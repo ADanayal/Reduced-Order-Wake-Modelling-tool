@@ -64,7 +64,9 @@ For complete modelling assumptions and parameter values, refer to the project re
 
 ## Engineering Wake Models
 
-Wake deficit modelling is based on implementations available through the PyWake framework.
+Wake deficit modelling is based on implementations available through the PyWake framework:
+
+https://gitlab.windenergy.dtu.dk/TOPFARM/PyWake/-/blob/40424ed292d8678d3c6eaeca7bc59cf73ddb8965/docs/notebooks/WakeDeficitModels.ipynb
 
 Models considered include:
 
@@ -76,7 +78,9 @@ Models considered include:
 
 ## Turbulence Models
 
-Wake-added turbulence representations are based on implementations available through the PyWake framework.
+Wake-added turbulence representations are based on implementations available through the PyWake framework:
+
+https://gitlab.windenergy.dtu.dk/TOPFARM/PyWake/-/blob/40424ed292d8678d3c6eaeca7bc59cf73ddb8965/docs/notebooks/TurbulenceModels.ipynb
 
 Models considered include:
 
