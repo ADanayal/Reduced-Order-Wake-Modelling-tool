@@ -120,6 +120,7 @@ Documentation:
 https://openfast.readthedocs.io
 
 A Representative file is provided to present the inputs used for each TurbSim simulation.
+
 ---
 
 ## Attribution
@@ -135,3 +136,5 @@ This repository primarily documents the workflow developed to:
 5. Compare engineering wake models against LES-informed reference cases.
 
 ---
+
+Author: Ahmed Danayal
