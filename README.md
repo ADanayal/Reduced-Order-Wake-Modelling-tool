@@ -1,7 +1,5 @@
 # Reduced-Order-Wake-Modelling-tool
 
-# Reduced-Order Wake Modelling Tool
-
 ## Overview
 
 This repository contains the reduced-order wake modelling workflow developed as part of an Advanced Research Project investigating wake-resolved fatigue loading predictions for large offshore wind turbines.
@@ -19,21 +17,6 @@ The work was developed using the IEA 15 MW reference turbine and validated again
 
 ---
 
-## Repository Structure
-
-```text
-├── WakeDeficitModels.ipynb
-├── TurbulenceModels.ipynb
-├── wake_field_generation/
-├── post_processing/
-├── figures/
-├── report_data/
-├── examples/
-└── README.md
-```
-
----
-
 ## Included Data
 
 The repository contains the processed datasets used to generate the figures and fatigue comparisons presented within the final report.
@@ -46,14 +29,25 @@ Included files contain:
 * Damage Equivalent Load (DEL) results
 * Figure generation scripts
 * Representative flowfield outputs used for visualisation
+* Farm array configuration
+* Representative TurbSim input .bts file
+* Representative OpenFAST input files (Icluding the main.fst, InflowWind and Elastodyn file)
 
 These datasets correspond directly to the cases presented within the report.
 
 ---
 
+## Wake Resolving Modelling Tool
+
+A generalised version of the wake-resolving modelling tool developed during this project is provided. The workflow combines PyWake, TurbSim and OpenFAST to generate wake-resolved inflow fields and evaluate the resulting turbine loads and fatigue behaviour.
+
+Users may adapt the framework to alternative turbines, wind farm layouts, wake models and operating conditions. To ensure compatibility, any new inputs should follow the same directory structure and file conventions used throughout the provided examples.
+
+---
+
 ## Simulation Inputs
 
-The simulations use the same inflow definitions, turbine configuration and modelling assumptions described in the accompanying report.
+The simulations use the same inflow definitions, turbine configuration and modelling assumptions described in the accompanying paper.
 
 These include:
 
@@ -74,8 +68,8 @@ Wake deficit modelling is based on implementations available through the PyWake 
 
 Models considered include:
 
-* Bastankhah–Porté-Agel Gaussian Wake Model (BPA)
-* Niayifar–Porté-Agel Wake Model (NPA)
+* Bastankhah–Porté-Agel Gaussian Wake Model
+* Niayifar–Porté-Agel Wake Model 
 * TurbOPark Wake Model
 
 ---
@@ -87,8 +81,6 @@ Wake-added turbulence representations are based on implementations available thr
 Models considered include:
 
 * Crespo–Hernández Wake Added Turbulence Model
-* IEC Effective Turbulence Intensity (Ieff)
-* Additional turbulence formulations available through PyWake
 
 ---
 
@@ -112,6 +104,8 @@ Repository:
 
 https://github.com/OpenFAST/openfast
 
+Representative files are provided to present the inputs used for the main OpenFAST simulations. This specifically includes the Elastodyn, InflowWind and main fst file.
+
 ### TurbSim
 
 TurbSim is used for stochastic turbulent inflow generation.
@@ -120,6 +114,7 @@ Documentation:
 
 https://openfast.readthedocs.io
 
+A Representative file are provided to present the inputs used for each TurbSim simulation.
 ---
 
 ## Attribution
@@ -135,11 +130,3 @@ This repository primarily documents the workflow developed to:
 5. Compare engineering wake models against LES-informed reference cases.
 
 ---
-
-## Citation
-
-If using this repository, please cite:
-
-Ahmed Noor Danayal,
-"Assessment of Wake-Resolved Inflow Modelling for Fatigue Prediction in Large Offshore Wind Turbines",
-University of Manchester, Advanced Research Project, 2026.
