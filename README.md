@@ -13,7 +13,7 @@ The methodology integrates:
 * OpenFAST aeroelastic simulations
 * Post-processing routines for fatigue and Damage Equivalent Load (DEL) assessment
 
-The work was developed using the IEA 15 MW reference turbine and validated against reference LES datasets.
+The work was developed using the IEA 15 MW Monopole reference turbine and validated against reference LES datasets.
 
 ---
 
@@ -30,8 +30,8 @@ Included files contain:
 * Figure generation scripts
 * Representative flowfield outputs used for visualisation
 * Farm array configuration
-* Representative TurbSim input .bts file
-* Representative OpenFAST input files (Icluding the main.fst, InflowWind and Elastodyn file)
+* Representative TurbSim input file
+* Representative OpenFAST input files
 
 These datasets correspond directly to the cases presented within the report.
 
@@ -103,8 +103,9 @@ NREL OpenFAST is used for aeroelastic load prediction.
 Repository:
 
 https://github.com/OpenFAST/openfast
+https://github.com/IEAWindSystems/IEA-15-240-RWT.git
 
-Representative files are provided to present the inputs used for the main OpenFAST simulations. This specifically includes the Elastodyn, InflowWind and main fst file.
+Representative files are provided to present the inputs used for the main OpenFAST simulations. This specifically includes the Elastodyn, InflowWind and main fst file. The other OpenFAST modules are kept as default from the original IEA-15 Monopole reference turbine definiton. 
 
 ### TurbSim
 
@@ -114,7 +115,7 @@ Documentation:
 
 https://openfast.readthedocs.io
 
-A Representative file are provided to present the inputs used for each TurbSim simulation.
+A Representative file is provided to present the inputs used for each TurbSim simulation.
 ---
 
 ## Attribution
