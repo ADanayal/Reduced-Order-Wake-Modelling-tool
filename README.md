@@ -109,7 +109,7 @@ Repository:
 https://github.com/OpenFAST/openfast
 https://github.com/IEAWindSystems/IEA-15-240-RWT.git
 
-Representative files are provided to present the inputs used for the main OpenFAST simulations. This specifically includes the Elastodyn, InflowWind and main fst file. The other OpenFAST modules are kept as default from the original IEA-15 Monopole reference turbine definiton. 
+Representative files are provided to present the inputs used for the main OpenFAST simulations. This specifically includes the Elastodyn, InflowFile and main fst file. The other OpenFAST modules are kept as default from the original IEA-15 Monopole reference turbine definiton. 
 
 ### TurbSim
 
@@ -119,7 +119,7 @@ Documentation:
 
 https://openfast.readthedocs.io
 
-A Representative file is provided to present the inputs used for each TurbSim simulation.
+A Representative file is provided to present the inputs used for the Ieff (= 11.833625) inflow wind conditions. Note, as advised by the TurbSim documentation, ScaleIEC is set = 1 to allow the user input turbulence intensity value to be used.
 
 ---
 
