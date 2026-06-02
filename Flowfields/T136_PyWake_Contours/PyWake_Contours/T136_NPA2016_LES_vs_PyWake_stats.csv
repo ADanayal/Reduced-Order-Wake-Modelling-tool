@@ -1,0 +1,2 @@
+turbine_id,model,U_LES_rotor_mean_mps,U_PyWake_rotor_mean_mps,TI_LES_rotor_mean_percent,TI_PyWake_rotor_mean_percent,U_LES_rotor_std_mps,U_PyWake_rotor_std_mps,TI_LES_rotor_std_percent,TI_PyWake_rotor_std_percent
+T136,NPA2016,8.080103947368421,8.602694318411235,8.642499999999998,11.498612293881111,0.5267668588066735,0.45129347256888264,0.3685359548266627,1.7763568394002505e-15

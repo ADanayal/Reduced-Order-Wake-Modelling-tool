@@ -1,0 +1,2 @@
+turbine_id,U_full_min_mps,U_full_max_mps,U_full_mean_mps,U_full_std_mps,U_rotor_min_mps,U_rotor_max_mps,U_rotor_mean_mps,U_rotor_std_mps,TI_full_min_percent,TI_full_max_percent,TI_full_mean_percent,TI_full_std_percent,TI_rotor_min_percent,TI_rotor_max_percent,TI_rotor_mean_percent,TI_rotor_std_percent
+T136,6.2135,10.5234,8.790570161290324,1.0488676513561015,6.5287,8.9238,8.080103947368421,0.5267668588066735,7.21,10.620000000000001,8.702838709677419,0.7281496698669631,7.670000000000001,9.48,8.642499999999998,0.3685359548266627

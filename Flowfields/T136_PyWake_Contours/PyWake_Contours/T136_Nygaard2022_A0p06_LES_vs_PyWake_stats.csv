@@ -1,0 +1,2 @@
+turbine_id,model,U_LES_rotor_mean_mps,U_PyWake_rotor_mean_mps,TI_LES_rotor_mean_percent,TI_PyWake_rotor_mean_percent,U_LES_rotor_std_mps,U_PyWake_rotor_std_mps,TI_LES_rotor_std_percent,TI_PyWake_rotor_std_percent
+T136,Nygaard2022_A0.06,8.080103947368421,8.298857332230941,8.642499999999998,8.9,0.5267668588066735,0.4354204780946707,0.3685359548266627,0.0
